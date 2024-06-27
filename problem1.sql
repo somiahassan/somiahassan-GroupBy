@@ -15,3 +15,6 @@
 
 -- Write your sql statement anywhere below this line
 
+SELECT artist, COUNT(song) 
+FROM song
+GROUP BY artist;
